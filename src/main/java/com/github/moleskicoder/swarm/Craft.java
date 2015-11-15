@@ -98,7 +98,7 @@ final class Craft implements ICraft {
         }
 
         if (!this.isVisible()) {
-            throw new IllegalStateException("com.github.moleskicoder.swarm.Craft is invisible!");
+            throw new IllegalStateException("Craft is invisible!");
         }
 
         graphics.drawImage(getImage(), this.getX(), this.getY(), observer);

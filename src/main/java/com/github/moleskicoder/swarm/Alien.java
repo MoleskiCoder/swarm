@@ -91,7 +91,7 @@ public final class Alien implements com.github.moleskicoder.swarm.Actor {
         }
 
         if (!this.isVisible()) {
-            throw new IllegalStateException("com.github.moleskicoder.swarm.Alien is invisible!");
+            throw new IllegalStateException("Alien is invisible!");
         }
 
         ++this.ticks;

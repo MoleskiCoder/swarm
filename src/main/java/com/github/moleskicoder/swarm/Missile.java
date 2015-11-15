@@ -73,7 +73,7 @@ public final class Missile implements Sprite {
         }
 
         if (!this.isVisible()) {
-            throw new IllegalStateException("com.github.moleskicoder.swarm.Missile is invisible!");
+            throw new IllegalStateException("Missile is invisible!");
         }
 
         graphics.drawImage(getImage(), this.getX(), this.getY(), observer);
