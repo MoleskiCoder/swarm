@@ -8,7 +8,7 @@ import java.security.SecureRandom;
 
 import javax.swing.ImageIcon;
 
-public final class Alien implements com.github.moleskicoder.swarm.Actor {
+public final class Alien implements Actor {
 
     private static final String[] ALIENS = { "alien1.png", "alien2.png" };
     private static final Image[] IMAGES = new Image[ALIENS.length];
